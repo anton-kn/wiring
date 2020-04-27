@@ -1,0 +1,175 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Roboto" ,"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+P, H1{
+	margin: 0;
+	padding: 0;
+}
+
+.slider-box > img{
+	width: 500px;
+	height: 300px;
+}
+
+/*ящик для всей страницы*/
+.cheat-detail{
+	/*padding-top: 0px;*/
+	margin: 0px;
+	position: relative;
+	padding: 10px;
+	/*margin: 10px;*/
+	background: #FFF5EE;
+}
+
+/*заголовок*/
+#header{
+	padding: 0;
+	margin: 0;
+	width: auto;
+	height: 50px;
+	color: white;
+	background: #5F9EA0;
+}
+
+/*кнопки*/
+#buttons{
+	margin-top: 10px;
+	width: auto;
+	height: 40px;
+}
+
+.nav{
+	float: left;
+	padding: 5px;
+	color: white;
+	background: #5F9EA0; 
+}
+
+.nav:hover{
+  cursor: pointer;
+  background: #008080;
+}
+
+#images{
+	width: auto;
+	height:300px;
+	margin-top: 10px;
+	position: relative;
+	/*border:  3px solid #BFE2FF;*/
+
+}
+
+.slider-box{
+	/*margin-left: 50px;*/
+	margin-left: auto;
+    margin-right: auto;
+	/*border:  3px solid #BFE2FF;*/
+	width: 500px;
+	height: 300px;
+}
+
+/*для изображений в слайдере и плавного переключения*/
+	.fig{
+		display: block;
+		position: absolute;
+		z-index: 1;
+		opacity: 0;
+		/*padding-left: 50px;*/
+		transition: opacity 1s ease-in;
+	}
+
+	.showing{
+		opacity: 1;
+		z-index: 2;
+	}
+
+		/*для стрелок*/
+		#sim-arrow-left{
+			/*float: left;*/
+			left: 10px;
+		  	top: 40%;
+		  	display: block;
+		  	position: absolute;
+		  	opacity: 0.5; /*добаляет прозрачность телу*/
+		}
+
+		#sim-arrow-left:hover {
+			opacity: 1.0;
+			cursor: pointer;	
+		}
+
+		#sim-arrow-right{
+			/*float: left;*/
+			right: 10px;
+		  	top: 40%;
+		  	display: block;
+		  	position: absolute;
+		  	opacity: 0.5;
+		}
+
+		#sim-arrow-right:hover {
+			opacity: 1.0;
+			cursor: pointer;
+		}
+
+
+#content{
+	margin-top: 10px; 
+	width: auto;
+	height:1000px;
+	/*border:  3px solid #BFE2FF;*/
+}
+
+#work{
+	margin: 5px;
+	float: left;
+	width: 200px;
+	height: 500px;
+	background: #5F9EA0;
+	color: white
+	/*border:  1px solid #BFE2FF;*/
+}
+
+.work-step-by-step{
+	display: inline-block;
+	width: 190px;
+	height: 30px;
+	color: white;
+	padding: 5px;
+}
+
+.work-step-by-step:hover{
+	cursor: pointer;
+  	background: #008080;
+}
+
+
+#work > P{
+	margin: 5px;
+	padding: 5px;
+	border-bottom: 1px solid #BFE2FF;;
+}
+
+#text{
+	margin-top: 5px; 
+	margin-left: 210px; 
+}
+
+	/*.question{
+		width:500px;
+		height:200px;
+		/*padding-left: 100px;*/
+		/*margin-left: 100px;*/
+		/*margin: auto;
+		border: 2px solid #F4A308;
+		border-radius: 10px;*/
+		/*position: fixed;*/
+
+	/*}*/
+
+.step{
+	border-bottom: 2px solid #e18b8b;
+}
