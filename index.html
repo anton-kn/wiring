@@ -7,15 +7,27 @@
 	<body>
 	<div class="cheat-detail">
 		<div id = "header">
-			<h1>Электропроводка дома</h1>
+			<!-- <h1>Электропроводка дома</h1> -->
+			<a id="head-site" href="/index">Электропроводка дома</a>
 		</div>
 		<!-- кнопки -->
 		<div id='buttons'>
-			<a href="" class="nav">Главная</a>
-			<a href="" class="nav">Материалы</a>
+			<a href="/index" class="nav">Главная</a>
+			<a href="" class="nav">Переменный электрический ток?</a>
 			<a href="" class="nav">Инструменты</a>
-			<a href="" class="nav">Подготовка стен</a>
+			<a href="" class="nav">Фаза и ноль</a>
 		</div>
+		<!-- меню для мобильной версии -->
+		<div id="mobile">
+			<img src="/public/img/line.png">
+				<div id="buttons-mobile">
+					<a href="/index" class="nav">Главная</a>
+					<a href="" class="nav">Переменный электрический ток?</a>
+					<a href="" class="nav">Инструменты</a>
+					<a href="" class="nav">Фаза и ноль</a>
+				</div>
+		</div>
+
 		<!-- Картинки -->
 		<div id="images">
 			<div id="sim-arrow-left"><img src="/public/img/sim-arrow-left.png"></div>
@@ -29,14 +41,20 @@
 		</div>
 		<!-- Контент -->
 		<div id="content">
-			<div id="work">
+			<div class="work">
 				<p>С чего начать</p>
 				<a class="work-step-by-step" href="/step-one-scheme/1">План схема</a></br>
 				<a class="work-step-by-step" href="/step-material/2">Покупка</a></br>
 				<a class="work-step-by-step" href="/step-walls/3">Подготовка стен</a></br>
 				<a class="work-step-by-step" href="/step-wire-mounting/4">Укладка проводов</a></br>
-				<a class="work-step-by-step" href="">Подключение коробок</a></br>
 			</div>
+				<!-- <div id="mobile-work">
+					<p>С чего начать</p>
+					<a class="work-step-by-step" href="/step-one-scheme/1">План схема</a></br>
+					<a class="work-step-by-step" href="/step-material/2">Покупка</a></br>
+					<a class="work-step-by-step" href="/step-walls/3">Подготовка стен</a></br>
+					<a class="work-step-by-step" href="/step-wire-mounting/4">Укладка проводов</a></br>
+				</div> -->
 			<div id="text">
 				<p>
 					Электрическая энергия начала входить в человеческий быт только 
@@ -67,9 +85,15 @@
 				</p>
 			</div>
 		</div>
+
+		<div id="menu">
+			<img src="/public/img/lightning.png">
+		</div>
+
 	</div>
 
 		<script src = "/public/js/slider.js"></script>
+		<script src = "/public/js/menu.js"></script>
 
 	</body>
 

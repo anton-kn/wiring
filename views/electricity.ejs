@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Проводка дома</title>
+	<link rel="stylesheet" href="/public/css/index.css">
+</head>
+	<body>
+	<div class="cheat-detail">
+		<div id = "header">
+			<h1>Электропроводка дома</h1>
+		</div>
+		<!-- кнопки -->
+		<%- include('headers/buttons');%>
+		<!-- Картинки -->
+		<div id="images">
+			<div class="slider-box">
+				<div class="fig showing"><img src="/public/img/walls.jpg"  width="auto" height="300"></div>
+			</div>
+		</div>
+		<!-- Контент -->
+		<div id="content">
+			<div id="work">
+				<p>С чего начать</p>
+				<%- include('headers/workstepbystep');%>
+			</div>
+			<div id="text">
+				<p><%- include('content/electricity');%></p>
+			</div>
+		</div>
+	</div>
+		
+		<!-- <script src = "/public/js/slider.js"></script> -->
+
+	</body>
+</html>

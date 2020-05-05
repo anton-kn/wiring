@@ -41,6 +41,10 @@ app.get('/step-wire-mounting/:id', (request, response)=>{
 	response.render('step-wire-mounting',{newsID: request.params.id});
 });
 
+app.get('/electricity', (request, response)=>{
+	response.render('electricity',{newsID: request.params.id});
+});
+
 
 // если страницы нет 
 app.get(['/:id', '/:id/:id'], urlencodedParser, (request,response)=>{

@@ -9,6 +9,13 @@ P, H1{
 	padding: 0;
 }
 
+#head-site{
+	color: white;
+	font-size: 20pt; 
+	text-decoration: none; /*убираем подчеркивание*/
+}
+
+
 .slider-box > img{
 	width: 500px;
 	height: 300px;
@@ -39,6 +46,37 @@ P, H1{
 	margin-top: 10px;
 	width: auto;
 	height: 40px;
+	display: block;
+}
+
+#mobile{
+	height: 50px;
+	width: 50px;
+	cursor: pointer;
+	background:	#5F9EA0;
+	color: white;
+	display: none;
+	margin-top: 10px;
+	z-index:2;
+	position: absolute;
+	/*border-radius: 5px;*/ /*не видно, т.к. картинка находится выше*/
+}
+
+#mobile:hover{
+	background: #008080;
+}
+
+
+#buttons-mobile{
+	width: 200px;
+	margin-top: 10px;
+	position: absolute;
+	display: none;
+	z-index:2;
+}
+
+#buttons-mobile > .nav{
+	width: 200px;
 }
 
 .nav{
@@ -58,6 +96,7 @@ P, H1{
 	height:300px;
 	margin-top: 10px;
 	position: relative;
+	z-index:1;
 	/*border:  3px solid #BFE2FF;*/
 
 }
@@ -123,14 +162,28 @@ P, H1{
 	/*border:  3px solid #BFE2FF;*/
 }
 
-#work{
+.work{
 	margin: 5px;
 	float: left;
 	width: 200px;
 	height: 500px;
 	background: #5F9EA0;
-	color: white
+	color: white;
+	display: block;
 	/*border:  1px solid #BFE2FF;*/
+}
+
+.show{
+	position: fixed;
+	z-index: 2;
+	/*display: block;*/
+	/*transition: opacity 1s ease-in;*/
+}
+
+.work > P, .work show > P{
+	margin: 5px;
+	padding: 5px;
+	border-bottom: 1px solid #BFE2FF;
 }
 
 .work-step-by-step{
@@ -146,30 +199,31 @@ P, H1{
   	background: #008080;
 }
 
-
-#work > P{
-	margin: 5px;
-	padding: 5px;
-	border-bottom: 1px solid #BFE2FF;;
-}
-
 #text{
 	margin-top: 5px; 
 	margin-left: 210px; 
 }
 
-	/*.question{
-		width:500px;
-		height:200px;
-		/*padding-left: 100px;*/
-		/*margin-left: 100px;*/
-		/*margin: auto;
-		border: 2px solid #F4A308;
-		border-radius: 10px;*/
-		/*position: fixed;*/
-
-	/*}*/
-
 .step{
 	border-bottom: 2px solid #e18b8b;
+}
+
+#menu{
+	height: 100px;
+	width: 100px;
+	background: #2F5E60;
+	color: white;
+	position: fixed;
+	left: 20px;
+	bottom: 20px;
+	display: none;
+}
+
+@media screen and (max-width: 800px){
+	#menu {display: block;}
+	#buttons{display: none;}
+	/*#buttons-mobile{display: block;}*/
+	#mobile{display: block;}
+	.work{display: none;}
+	#text{margin-left: 5px;}
 }
