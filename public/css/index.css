@@ -163,21 +163,18 @@ P, H1{
 }
 
 .work{
-	margin: 5px;
+	/*margin: 5px;*/
 	float: left;
 	width: 200px;
 	height: 500px;
 	background: #5F9EA0;
 	color: white;
 	display: block;
-	/*border:  1px solid #BFE2FF;*/
 }
 
-.show{
-	position: fixed;
-	z-index: 2;
-	/*display: block;*/
-	/*transition: opacity 1s ease-in;*/
+.mobile-work{
+	margin: 5px;
+	display: none;
 }
 
 .work > P, .work show > P{
@@ -214,16 +211,31 @@ P, H1{
 	background: #2F5E60;
 	color: white;
 	position: fixed;
-	left: 20px;
-	bottom: 20px;
+	left: 5px;
+	bottom: 5px;
 	display: none;
 }
 
-@media screen and (max-device-width: 800px){
+@media screen and (max-width: 800px){
 	#menu {display: block;}
 	#buttons{display: none;}
 	/*#buttons-mobile{display: block;}*/
 	#mobile{display: block;}
-	.work{display: none;}
+	.work{
+		margin: 5px;
+		float: none;
+		width: 100%;
+		height: 20%;
+		background: #FFF5EE;
+		color: black;
+		/*display: block;*/
+	}
+	.work-step-by-step{
+		display: inline-block;
+		width: 100%;
+		height: 30px;
+		color: black;
+		padding: 5px;
+	}
 	#text{margin-left: 5px;}
 }
