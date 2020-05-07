@@ -10,8 +10,9 @@ P, H1{
 }
 
 #head-site{
+	/*text-align: center;*/
 	color: white;
-	font-size: 20pt; 
+	font-size: 30pt; 
 	text-decoration: none; /*убираем подчеркивание*/
 }
 
@@ -49,7 +50,36 @@ P, H1{
 	display: block;
 }
 
-#mobile{
+.svg{
+	background: #5F9EA0;
+	height: 40px;
+	width: 50px;
+	border-radius: 3px;
+	display: none;
+}
+
+.svg:hover{
+	background: #008080;
+}
+
+.menu-mobile{
+	width: 200px;
+	height: auto;
+	margin-top: 10px;
+	padding: 5px;
+	position: relative;
+	display: block;
+	z-index:2;
+	margin-top: 0px;
+	background:	#5F9EA0;
+	color: white; 
+}
+
+.menu-mobile:hover{
+	background: #008080;
+}
+
+/*#mobile{
 	height: 50px;
 	width: 50px;
 	cursor: pointer;
@@ -60,20 +90,20 @@ P, H1{
 	z-index:2;
 	position: absolute;
 	/*border-radius: 5px;*/ /*не видно, т.к. картинка находится выше*/
-}
+/*}
 
 #mobile:hover{
 	background: #008080;
-}
+}*/
 
 
-#buttons-mobile{
+/*#buttons-mobile{
 	width: 200px;
 	margin-top: 10px;
 	position: absolute;
 	display: none;
 	z-index:2;
-}
+}*/
 
 #buttons-mobile > .nav{
 	width: 200px;
@@ -84,6 +114,7 @@ P, H1{
 	padding: 5px;
 	color: white;
 	background: #5F9EA0; 
+	display: block;
 }
 
 .nav:hover{
@@ -194,6 +225,7 @@ P, H1{
 .work-step-by-step:hover{
 	cursor: pointer;
   	background: #008080;
+  	color: white;
 }
 
 #text{
@@ -216,9 +248,16 @@ P, H1{
 	display: none;
 }
 
-@media screen and (max-width: 800px){
+.footer-col {
+	width: 100%;
+	float: left;
+	height: 50px;
+	background: #CAC1BA;
+}
+
+@media screen and (max-device-width: 800px){
 	#menu {display: block;}
-	#buttons{display: none;}
+	/*#buttons{display: none;}*/
 	/*#buttons-mobile{display: block;}*/
 	#mobile{display: block;}
 	.work{
@@ -238,4 +277,10 @@ P, H1{
 		padding: 5px;
 	}
 	#text{margin-left: 5px;}
+
+	#head-site{text-align: center;}
+
+	.svg{display: block;}
+
+	.nav{display: none};
 }

@@ -7,7 +7,8 @@
 	<body>
 	<div class="cheat-detail">
 		<div id = "header">
-			<h1>Электропроводка дома</h1>
+			<!-- <h1>Электропроводка дома</h1> -->
+			<a id="head-site" href="/index">Электропроводка дома</a>
 		</div>
 		<!-- кнопки -->
 		<%- include('headers/buttons');%>
@@ -19,7 +20,7 @@
 		</div>
 		<!-- Контент -->
 		<div id="content">
-			<div id="work">
+			<div class="work">
 				<p>С чего начать</p>
 				<%- include('headers/workstepbystep');%>
 			</div>
@@ -32,7 +33,14 @@
 			</div>
 		</div>
 	</div>
-		
+
+<footer>
+	<div class="container">
+    	<div class="footer-col"><span>Мой сайт © 2020</span></div>
+  	</div>
+</footer>
+	
+		<script src = "/public/js/menu.js"></script>
 		<!-- <script src = "/public/js/slider.js"></script> -->
 
 	</body>

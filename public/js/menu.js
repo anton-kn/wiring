@@ -1,8 +1,13 @@
-const buttonsMobile = document.querySelector('#buttons-mobile');
-// const mobile = document.querySelector('#mobile');
+// const buttonsMobile = document.querySelector('#buttons-mobile');
+const svg = document.querySelector('.svg');
+const nav = document.querySelectorAll('.nav');
 
-mobile.onclick = ()=>{
-    buttonsMobile.style.display = 'block';
+svg.onclick = ()=>{
+	nav.forEach(function(name,index){
+		nav[index].className = "menu-mobile";
+		nav[index].style.display = 'block';
+	});
+    // nav.style.display = 'block';
 }
 
 // console.log(buttonsMobile);
@@ -11,6 +16,9 @@ window.onclick = (event)=>{
     // console.log(document.documentElement.clientHeight);
     // console.log(event.target.tagName);
     if(event.clientX >=200 || event.clientY >=200 ) {
-        buttonsMobile.style.display = 'none';
+    	nav.forEach(function(name,index){
+			nav[index].style.display = 'none';
+		});
+        
     }    
 }
