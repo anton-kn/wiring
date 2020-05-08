@@ -62,7 +62,7 @@ P, H1{
 	background: #008080;
 }
 
-.menu-mobile{
+/*.menu-mobile{
 	width: 200px;
 	height: auto;
 	margin-top: 10px;
@@ -73,41 +73,11 @@ P, H1{
 	margin-top: 0px;
 	background:	#5F9EA0;
 	color: white; 
-}
-
-.menu-mobile:hover{
-	background: #008080;
-}
-
-/*#mobile{
-	height: 50px;
-	width: 50px;
-	cursor: pointer;
-	background:	#5F9EA0;
-	color: white;
-	display: none;
-	margin-top: 10px;
-	z-index:2;
-	position: absolute;
-	/*border-radius: 5px;*/ /*не видно, т.к. картинка находится выше*/
-/*}
-
-#mobile:hover{
-	background: #008080;
 }*/
 
-
-/*#buttons-mobile{
-	width: 200px;
-	margin-top: 10px;
-	position: absolute;
-	display: none;
-	z-index:2;
+/*.menu-mobile:hover{
+	background: #008080;
 }*/
-
-#buttons-mobile > .nav{
-	width: 200px;
-}
 
 .nav{
 	float: left;
@@ -122,6 +92,10 @@ P, H1{
   background: #008080;
 }
 
+#buttons-mobile > .nav{
+	width: 200px;
+}
+
 #images{
 	width: auto;
 	height:300px;
@@ -129,7 +103,6 @@ P, H1{
 	position: relative;
 	z-index:1;
 	/*border:  3px solid #BFE2FF;*/
-
 }
 
 .slider-box{
@@ -279,8 +252,39 @@ P, H1{
 	#text{margin-left: 5px;}
 
 	#head-site{text-align: center;}
-
 	.svg{display: block;}
+	/*.nav{display: none};*/
 
-	.nav{display: none};
+	.nav{
+		float: left;
+		padding: 5px;
+		color: white;
+		background: #5F9EA0; 
+		display: none;
+		width: 50%;
+		height: auto;
+		margin-top: 10px;
+		/*padding: 5px;*/
+		position: relative;
+		/*display: block;*/
+		z-index:2;
+		margin-top: 0px;
+	}
+
+	.nav:active{display: block;}
+
+	/*.menu-mobile{
+		width: 200px;
+		height: auto;
+		margin-top: 10px;
+		
+		position: relative;
+		
+		z-index:2;
+		margin-top: 0px;
+		/*background:	#5F9EA0;*/
+		/*color: white; */
+	/*}*/
+
+
 }
