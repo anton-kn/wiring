@@ -11,8 +11,6 @@ function showSlider(n){
 	}
 }
 
-
-
 function switchSlider() {
 	counter++;
 	if (counter > 3) {

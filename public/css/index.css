@@ -9,48 +9,72 @@ P, H1{
 	padding: 0;
 }
 
-#head-site{
-	/*text-align: center;*/
+/*ящик для всей страницы*/
+.cover{
+	width: 100%;
+	height: 100%;
+	/* background-size: cover; /* Масштабирует фоновое изображение согласно заданным размерам. */ */
+	background: #FFF5EE;
+}
+
+.header{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: center; /*Центрирование по горизонтали*/
+	align-items: center;
+	position: relative;
+	background: #5F9EA0;
+}
+
+.head-site{
+	position: absolute;
+  margin: auto;
+  overflow: auto; /*чтобы контент не расползался*/
+}
+
+.head-site a{
 	color: white;
-	font-size: 30pt; 
+	font-size: 30pt;
 	text-decoration: none; /*убираем подчеркивание*/
 }
 
 
-.slider-box > img{
-	width: 500px;
-	height: 300px;
+.nav:hover{
+  cursor: pointer;
+  background: #008080;
 }
 
-/*ящик для всей страницы*/
-.cheat-detail{
-	/*padding-top: 0px;*/
-	margin: 0px;
-	position: relative;
-	padding: 10px;
-	/*margin: 10px;*/
-	background: #FFF5EE;
-}
+/*########################*/
 
-/*заголовок*/
-#header{
-	padding: 0;
-	margin: 0;
+/*кнопки*/
+.buttons{
+	margin-top: 10px;
 	width: auto;
 	height: 50px;
-	color: white;
+	position: relative;
 	background: #5F9EA0;
 }
 
-/*кнопки*/
-#buttons{
-	margin-top: 10px;
-	width: auto;
-	height: 40px;
+.buttons a{
+	float: left;
 	display: block;
+	color: #f2f2f2;
+  text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.buttons a:hover{
+	cursor: pointer;
+  background: #008080;
 }
 
 .svg{
+	float: right;
+	/* margin-left: 10%; */
+	padding: 5px 5px;
 	background: #5F9EA0;
 	height: 40px;
 	width: 50px;
@@ -60,41 +84,9 @@ P, H1{
 
 .svg:hover{
 	background: #008080;
+	cursor: pointer;
 }
 
-/*.menu-mobile{
-	width: 200px;
-	height: auto;
-	margin-top: 10px;
-	padding: 5px;
-	position: relative;
-	display: block;
-	z-index:2;
-	margin-top: 0px;
-	background:	#5F9EA0;
-	color: white; 
-}*/
-
-/*.menu-mobile:hover{
-	background: #008080;
-}*/
-
-.nav{
-	float: left;
-	padding: 5px;
-	color: white;
-	background: #5F9EA0; 
-	display: block;
-}
-
-.nav:hover{
-  cursor: pointer;
-  background: #008080;
-}
-
-#buttons-mobile > .nav{
-	width: 200px;
-}
 
 #images{
 	width: auto;
@@ -113,6 +105,12 @@ P, H1{
 	width: 500px;
 	height: 300px;
 }
+
+.slider-box > img{
+	width: 500px;
+	height: 300px;
+}
+
 
 /*для изображений в слайдере и плавного переключения*/
 	.fig{
@@ -141,7 +139,7 @@ P, H1{
 
 		#sim-arrow-left:hover {
 			opacity: 1.0;
-			cursor: pointer;	
+			cursor: pointer;
 		}
 
 		#sim-arrow-right{
@@ -160,25 +158,20 @@ P, H1{
 
 
 #content{
-	margin-top: 10px; 
+	margin-top: 10px;
 	width: auto;
 	height:1000px;
 	/*border:  3px solid #BFE2FF;*/
 }
 
 .work{
-	/*margin: 5px;*/
+	text-align: left;
 	float: left;
 	width: 200px;
 	height: 500px;
 	background: #5F9EA0;
 	color: white;
 	display: block;
-}
-
-.mobile-work{
-	margin: 5px;
-	display: none;
 }
 
 .work > P, .work show > P{
@@ -202,8 +195,8 @@ P, H1{
 }
 
 #text{
-	margin-top: 5px; 
-	margin-left: 210px; 
+	margin-top: 5px;
+	margin-left: 210px;
 }
 
 .step{
@@ -228,11 +221,7 @@ P, H1{
 	background: #CAC1BA;
 }
 
-@media screen and (max-device-width: 800px){
-	#menu {display: block;}
-	/*#buttons{display: none;}*/
-	/*#buttons-mobile{display: block;}*/
-	#mobile{display: block;}
+@media screen and (max-width: 800px){
 	.work{
 		margin: 5px;
 		float: none;
@@ -240,7 +229,7 @@ P, H1{
 		height: 20%;
 		background: #FFF5EE;
 		color: black;
-		/*display: block;*/
+
 	}
 	.work-step-by-step{
 		display: inline-block;
@@ -252,39 +241,5 @@ P, H1{
 	#text{margin-left: 5px;}
 
 	#head-site{text-align: center;}
-	.svg{display: block;}
-	/*.nav{display: none};*/
-
-	.nav{
-		float: left;
-		padding: 5px;
-		color: white;
-		background: #5F9EA0; 
-		display: none;
-		width: 50%;
-		height: auto;
-		margin-top: 10px;
-		/*padding: 5px;*/
-		position: relative;
-		/*display: block;*/
-		z-index:2;
-		margin-top: 0px;
-	}
-
-	.nav:active{display: block;}
-
-	/*.menu-mobile{
-		width: 200px;
-		height: auto;
-		margin-top: 10px;
-		
-		position: relative;
-		
-		z-index:2;
-		margin-top: 0px;
-		/*background:	#5F9EA0;*/
-		/*color: white; */
-	/*}*/
-
-
+	
 }
