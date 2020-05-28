@@ -1,7 +1,6 @@
 // переключаем слайдер
 function showSlider(n){
 	let fig = document.querySelectorAll('.fig');
-	// console.log(fig.length);
 	for(let i=0; i<fig.length; i++){
 		if(i==n){
 			fig[n].className = 'fig showing';

@@ -48,59 +48,19 @@ P, H1{
 /*########################*/
 
 /*кнопки*/
-.buttons{
-	margin-top: 10px;
-	width: auto;
-	height: 50px;
-	position: relative;
-	background: #5F9EA0;
-}
-
-.buttons a{
-	float: left;
-	display: block;
-	color: #f2f2f2;
-  text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 20px;
-}
-
-.buttons a:hover{
-	cursor: pointer;
-  background: #008080;
-}
-
-.svg{
-	float: right;
-	/* margin-left: 10%; */
-	padding: 5px 5px;
-	background: #5F9EA0;
-	height: 40px;
-	width: 50px;
-	border-radius: 3px;
-	display: none;
-}
-
-.svg:hover{
-	background: #008080;
-	cursor: pointer;
-}
-
-
-#images{
+#images-box{
 	width: auto;
 	height:300px;
 	margin-top: 10px;
 	position: relative;
-	z-index:1;
+	/* z-index:1; */
 	/*border:  3px solid #BFE2FF;*/
 }
 
 .slider-box{
 	/*margin-left: 50px;*/
 	margin-left: auto;
-    margin-right: auto;
+  margin-right: auto;
 	/*border:  3px solid #BFE2FF;*/
 	width: 500px;
 	height: 300px;
@@ -110,7 +70,6 @@ P, H1{
 	width: 500px;
 	height: 300px;
 }
-
 
 /*для изображений в слайдере и плавного переключения*/
 	.fig{
@@ -129,12 +88,11 @@ P, H1{
 
 		/*для стрелок*/
 		#sim-arrow-left{
-			/*float: left;*/
 			left: 10px;
-		  	top: 40%;
-		  	display: block;
-		  	position: absolute;
-		  	opacity: 0.5; /*добаляет прозрачность телу*/
+		  top: 40%;
+		  display: block;
+		  position: absolute;
+		  opacity: 0.5; /*добаляет прозрачность телу*/
 		}
 
 		#sim-arrow-left:hover {
@@ -199,6 +157,10 @@ P, H1{
 	margin-left: 210px;
 }
 
+#text p {
+	padding-top: 10px;
+}
+
 .step{
 	border-bottom: 2px solid #e18b8b;
 }
@@ -241,5 +203,5 @@ P, H1{
 	#text{margin-left: 5px;}
 
 	#head-site{text-align: center;}
-	
+
 }
