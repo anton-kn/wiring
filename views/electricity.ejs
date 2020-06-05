@@ -2,21 +2,26 @@
 <html>
 <head>
 	<title>Проводка дома</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="/public/css/index.css">
+	<link rel="stylesheet" href="/public/css/menu.css">
 </head>
 	<body>
-	<div class="cheat-detail">
-		<div id = "header">
-			<h1>Электропроводка дома</h1>
+	<div class="cover">
+		<div class = "header">
+			<div class="head-site">
+				<a href="/index">Электропроводка дома</a>
+			</div>
 		</div>
 		<!-- кнопки -->
 		<%- include('headers/buttons');%>
 		<!-- Картинки -->
-		<div id="images">
+		<div id="images-box">
 			<div class="slider-box">
-				<div class="fig showing"><img src="/public/img/walls.jpg"  width="auto" height="300"></div>
+				<figure class="fig showing"><img src="/public/img/tok.jpg"></figure>
 			</div>
 		</div>
+
 		<!-- Контент -->
 		<div id="content">
 			<div class="work">
@@ -24,18 +29,22 @@
 				<%- include('headers/workstepbystep');%>
 			</div>
 			<div id="text">
-				<p><%- include('content/electricity');%></p>
+				<p>Электри́чество — совокупность явлений, обусловленных существованием, 
+				взаимодействием и движением электрических зарядов. 
+				Термин введён английским естествоиспытателем Уильямом Гильбертом в его 
+				сочинении «О магните, магнитных телах и о большом магните — Земле» (1600 год), 
+				в котором объясняется действие магнитного компаса и описываются некоторые опыты с 
+				наэлектризованными телами. Он установил, что свойством наэлектризовываться обладают и 
+				ругие вещества</p>
 			</div>
 		</div>
 	</div>
-
-<footer>
-	<div class="container">
-    	<div class="footer-col"><span>Мой сайт © 2020</span></div>
-  	</div>
-</footer>
-		<script src = "/public/js/menu.js"></script>
-		<!-- <script src = "/public/js/slider.js"></script> -->
-
+	<footer>
+		<div class="container">
+	    	<div class="footer-col"><span>Мой сайт © 2020</span></div>
+	  	</div>
+	</footer>
+		<script src = "/public/js/menu.js" type="module"></script>
 	</body>
+
 </html>

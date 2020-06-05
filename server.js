@@ -42,7 +42,8 @@ app.get('/step-wire-mounting/:id', (request, response)=>{
 });
 
 app.get('/electricity', (request, response)=>{
-	response.render('electricity',{newsID: request.params.id});
+	// response.render('electricity',{newsID: request.params.id});
+	response.render('electricity');
 });
 
 

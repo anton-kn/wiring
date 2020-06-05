@@ -2,22 +2,27 @@
 <html>
 <head>
 	<title>Проводка дома</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="/public/css/index.css">
+	<link rel="stylesheet" href="/public/css/menu.css">
 </head>
 	<body>
-	<div class="cheat-detail">
-		<div id = "header">
-			<!-- <h1>Электропроводка дома</h1> -->
-			<a id="head-site" href="/index">Электропроводка дома</a>
+	<div class="cover">
+		<div class = "header">
+			<div class="head-site">
+				<a href="/index">Электропроводка дома</a>
+			</div>
 		</div>
 		<!-- кнопки -->
 		<%- include('headers/buttons');%>
 		<!-- Картинки -->
-		<div id="images">
+		<div id="images-box">
+			<!-- <div id="sim-arrow-left"><img src="/public/img/sim-arrow-left.png"></div> -->
 			<div class="slider-box">
-				<div class="fig showing"><img src="/public/img/walls.jpg"  width="auto" height="300"></div>
+				<figure class="fig showing"><img src="/public/img/walls.jpg"></figure>
 			</div>
 		</div>
+
 		<!-- Контент -->
 		<div id="content">
 			<div class="work">
@@ -27,22 +32,15 @@
 			<div id="text">
 				<p class="step">Шаг №: <%= newsID %></p>
 				<p><%- include('content/walls');%></p>
-					<!-- <div class="question">
-						<p>Выберите правильный ответ</p>
-					</div> -->
 			</div>
 		</div>
 	</div>
-
-<footer>
-	<div class="container">
-    	<div class="footer-col"><span>Мой сайт © 2020</span></div>
-  	</div>
-</footer>
-	
-		<script src = "/public/js/menu.js"></script>
-		<!-- <script src = "/public/js/slider.js"></script> -->
-
+	<footer>
+		<div class="container">
+	    	<div class="footer-col"><span>Мой сайт © 2020</span></div>
+	  	</div>
+	</footer>
+		<script src = "/public/js/menu.js" type="module"></script>
 	</body>
 
 </html>

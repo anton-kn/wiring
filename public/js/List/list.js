@@ -26,18 +26,15 @@ const content = `Электрическая энергия начала вход
   котлах.`
 
 //формируем массив
-let listIndex = []
-let pos = 0
+let listIndex = [];
+let pos = 0;
 while(true){
   let index = content.indexOf('.', pos)
   //в массив записываем не точку, а то, что после  нее, чтобы новая строка начиналась не с точки
+  if(content.indexOf('.', pos)==-1) break;
   listIndex.push(index+1)
-  if(content.indexOf('.', pos)==-1) break
   pos = index+1
 }
-//удаляем значение -1
-listIndex.pop()
-
 
 //формируем массив строк
 let listStr = []

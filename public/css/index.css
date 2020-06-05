@@ -9,6 +9,20 @@ P, H1{
 	padding: 0;
 }
 
+figure{
+	width: 100%;
+	height: 300px;
+	margin:0;
+	padding: 0;
+	overflow: hidden;
+	min-width: 300px;
+}
+
+figure img{
+	width: 100%;
+}
+
+
 /*ящик для всей страницы*/
 .cover{
 	width: 100%;
@@ -29,20 +43,14 @@ P, H1{
 
 .head-site{
 	position: absolute;
-  margin: auto;
-  overflow: auto; /*чтобы контент не расползался*/
+  	margin: auto;
+  	overflow: auto; /*чтобы контент не расползался*/
 }
 
 .head-site a{
 	color: white;
 	font-size: 30pt;
 	text-decoration: none; /*убираем подчеркивание*/
-}
-
-
-.nav:hover{
-  cursor: pointer;
-  background: #008080;
 }
 
 /*########################*/
@@ -53,23 +61,17 @@ P, H1{
 	height:300px;
 	margin-top: 10px;
 	position: relative;
-	/* z-index:1; */
-	/*border:  3px solid #BFE2FF;*/
 }
 
 .slider-box{
-	/*margin-left: 50px;*/
 	margin-left: auto;
-  margin-right: auto;
-	/*border:  3px solid #BFE2FF;*/
-	width: 500px;
-	height: 300px;
+  	margin-right: auto;
+	/*width: 500px;
+	height: 300px;*/
+	width: 100%;
+	height: 100%;
 }
 
-.slider-box > img{
-	width: 500px;
-	height: 300px;
-}
 
 /*для изображений в слайдере и плавного переключения*/
 	.fig{
@@ -89,10 +91,11 @@ P, H1{
 		/*для стрелок*/
 		#sim-arrow-left{
 			left: 10px;
-		  top: 40%;
-		  display: block;
-		  position: absolute;
-		  opacity: 0.5; /*добаляет прозрачность телу*/
+		  	top: 40%;
+		  	display: block;
+		  	position: absolute;
+		  	opacity: 0.5; /*добаляет прозрачность телу*/
+		  	z-index: 3;
 		}
 
 		#sim-arrow-left:hover {
@@ -101,12 +104,12 @@ P, H1{
 		}
 
 		#sim-arrow-right{
-			/*float: left;*/
 			right: 10px;
 		  	top: 40%;
 		  	display: block;
 		  	position: absolute;
 		  	opacity: 0.5;
+		  	z-index: 3;
 		}
 
 		#sim-arrow-right:hover {
@@ -165,17 +168,6 @@ P, H1{
 	border-bottom: 2px solid #e18b8b;
 }
 
-#menu{
-	height: 100px;
-	width: 100px;
-	background: #2F5E60;
-	color: white;
-	position: fixed;
-	left: 5px;
-	bottom: 5px;
-	display: none;
-}
-
 .footer-col {
 	width: 100%;
 	float: left;
@@ -201,7 +193,5 @@ P, H1{
 		padding: 5px;
 	}
 	#text{margin-left: 5px;}
-
 	#head-site{text-align: center;}
-
 }

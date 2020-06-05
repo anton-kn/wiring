@@ -11,4 +11,4 @@ function addContent(arr){
 
 }
 
-addContent(list)
+addContent(list);
