@@ -46,6 +46,16 @@ app.get('/electricity', (request, response)=>{
 	response.render('electricity');
 });
 
+app.get('/tool', (request, response)=>{
+	// response.render('electricity',{newsID: request.params.id});
+	response.render('tool');
+});
+
+app.get('/phase', (request, response)=>{
+	// response.render('electricity',{newsID: request.params.id});
+	response.render('phase');
+});
+
 
 // если страницы нет 
 app.get(['/:id', '/:id/:id'], urlencodedParser, (request,response)=>{

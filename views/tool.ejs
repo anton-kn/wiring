@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Проводка дома</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/public/css/index.css">
+	<link rel="stylesheet" href="/public/css/menu.css">
+</head>
+	<body>
+	<div class="cover">
+		<div class = "header">
+			<div class="head-site">
+				<a href="/index">Электропроводка дома</a>
+			</div>
+		</div>
+		<!-- кнопки -->
+		<%- include('headers/buttons');%>
+		<!-- Картинки -->
+		<div id="images-box">
+			<div class="slider-box">
+				<figure class="fig showing"><img src="/public/img/tool.jpg"></figure>
+			</div>
+		</div>
+
+		<!-- Контент -->
+		<div id="content">
+			<div class="work">
+				<p>С чего начать</p>
+				<%- include('headers/workstepbystep');%>
+			</div>
+			<div id="text">
+				<p><%- include('content/tool');%></p>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="container">
+	    	<div class="footer-col"><span>Мой сайт © 2020</span></div>
+	  	</div>
+	</footer>
+		<script src = "/public/js/menu.js" type="module"></script>
+	</body>
+
+</html>
