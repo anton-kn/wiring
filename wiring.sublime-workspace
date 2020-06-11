@@ -1,0 +1,557 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tra",
+				"transition\tproperty"
+			],
+			[
+				"tr",
+				"transition\tproperty"
+			],
+			[
+				"cons",
+				"const"
+			],
+			[
+				"whi",
+				"width\tproperty"
+			],
+			[
+				"list",
+				"listName"
+			],
+			[
+				"margi",
+				"margin-right\tproperty"
+			],
+			[
+				"mar",
+				"margin-left\tproperty"
+			],
+			[
+				"Re",
+				"ReactLogoPng"
+			],
+			[
+				"re",
+				"ReactLogoPng"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"bag",
+				"background-image\tproperty"
+			],
+			[
+				"backgra",
+				"background-repeat\tproperty"
+			],
+			[
+				"backra",
+				"background-repeat\tproperty"
+			],
+			[
+				"co",
+				"cover\tbackground-size"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"ovwe",
+				"overflow\tproperty"
+			],
+			[
+				"al",
+				"align-items\tproperty"
+			],
+			[
+				"He",
+				"HeaderBlock"
+			],
+			[
+				"it",
+				"item"
+			],
+			[
+				"ite",
+				"Item"
+			],
+			[
+				"app",
+				"AppHeader"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"ma",
+				"margin-bottom\tproperty"
+			],
+			[
+				"margin",
+				"margin-left\tproperty"
+			],
+			[
+				"padd",
+				"padding-left\tproperty"
+			],
+			[
+				"ali",
+				"align-content\tproperty"
+			],
+			[
+				"pa",
+				"padding-left\tproperty"
+			],
+			[
+				"paddin",
+				"padding-right\tproperty"
+			],
+			[
+				"in",
+				"inline\tdisplay"
+			],
+			[
+				"h",
+				"height\tproperty"
+			],
+			[
+				"backr",
+				"background\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"url",
+				"urlencodedParser"
+			],
+			[
+				"requ",
+				"request"
+			],
+			[
+				"wri",
+				"writeHead"
+			],
+			[
+				"con",
+				"Content-Type"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2137,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/arrow.js",
+			"settings":
+			{
+				"buffer_size": 437,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/css/index.css",
+			"settings":
+			{
+				"buffer_size": 3002,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/slider.js",
+			"settings":
+			{
+				"buffer_size": 858,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"wie",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"wi",
+				"View: Toggle Side Bar"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 536.0,
+		"history":
+		[
+			"node server",
+			"node server.js"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/anton/programming/wiring",
+		"/home/anton/programming/wiring/public",
+		"/home/anton/programming/wiring/public/js",
+		"/home/anton/programming/wiring/public/js/List",
+		"/home/anton/programming/wiring/views"
+	],
+	"file_history":
+	[
+		"/home/anton/programming/wiring/views/content/phase.ejs",
+		"/home/anton/programming/wiring/views/phase.ejs",
+		"/home/anton/programming/wiring/server.js",
+		"/home/anton/programming/wiring/public/css/menu.css",
+		"/home/anton/programming/reactjs/learn-the-words/src/index.css",
+		"/home/anton/programming/wiring/views/headers/buttons.ejs",
+		"/home/anton/programming/wiring/public/css/index.css",
+		"/home/anton/programming/wiring/views/tool.ejs",
+		"/home/anton/programming/wiring/views/content/tool.ejs",
+		"/home/anton/programming/wiring/views/electricity.ejs",
+		"/home/anton/programming/test/order.js",
+		"/home/anton/programming/programming_in_C/main.c",
+		"/home/anton/programming/wiring/views/step-material.ejs",
+		"/home/anton/programming/wiring/views/step-wire-mounting.ejs",
+		"/home/anton/programming/wiring/views/step-one-scheme.ejs",
+		"/home/anton/programming/wiring/views/step-walls.ejs",
+		"/home/anton/programming/wiring/views/headers/workstepbystep.ejs",
+		"/home/anton/programming/wiring/index.html",
+		"/home/anton/programming/test/maparray.js",
+		"/home/anton/programming/wiring/public/js/headcontent.js",
+		"/home/anton/programming/wiring/public/js/List/list.js",
+		"/home/anton/programming/wiring/public/js/slider.js",
+		"/home/anton/programming/wiring/public/js/menu.js",
+		"/home/anton/programming/wiring/public/js/list.js",
+		"/home/anton/programming/reactjs/learn-the-words/src/components/HeaderBlock/index.js",
+		"/home/anton/programming/reactjs/learn-the-words/src/index.js",
+		"/home/anton/programming/reactjs/learn-the-words/src/components/HeaderBlock/HeaderBlock.module.scss",
+		"/home/anton/programming/reactjs/learn-the-words/src/components/HeaderBlock/HeaderBlock.css",
+		"/home/anton/programming/reactjs/learn-the-words/public/index.html",
+		"/home/anton/programming/reactjs/learn-the-words/src/App.js",
+		"/home/anton/programming/userdata/js/main.js",
+		"/home/anton/programming/userdata/index.html",
+		"/home/anton/programming/wiring/node_modules/express/lib/application.js",
+		"/home/anton/programming/wiring/views/headers/wire-mounting.ejs",
+		"/home/anton/programming/wiring/views/content/walls.ejs",
+		"/home/anton/programming/wiring/views/headers/step-wire-mounting.ejs",
+		"/home/anton/programming/wiring/views/content/material.ejs",
+		"/home/anton/programming/wiring/views/content/scheme.ejs",
+		"/home/anton/programming/wiring/views/buttons.ejs",
+		"/home/anton/programming/wiring/views/heder.ejs",
+		"/home/anton/programming/wiring/views/scheme.ejs",
+		"/home/anton/programming/wiring/node_modules/body-parser/lib/types/urlencoded.js",
+		"/home/anton/programming/wiring/views/homepage.ejs",
+		"/home/anton/programming/wiring/views/news.ejs",
+		"/home/anton/programming/userdata/css/main.css",
+		"/home/anton/programming/wiring/public/js/index.js",
+		"/home/anton/programming/wiring/js/index.js",
+		"/home/anton/programming/wiring/js/form.js",
+		"/home/anton/programming/wiring/package.json",
+		"/home/anton/programming/wiring/index.js",
+		"/home/anton/programming/wiring/node_modules/express/lib/express.js",
+		"/home/anton/programming/wiring/req.js",
+		"/home/anton/programming/wiring/node_modules/iconv-lite/encodings/internal.js",
+		"/home/anton/programming/wiring/servertwo.js"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 126.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"show"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2137,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2042,
+								2042
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 396.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "public/js/arrow.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 437,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								97,
+								97
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "public/css/index.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3002,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2413,
+								2413
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2871.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "public/js/slider.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 858,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								175,
+								175
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 159.0
+	},
+	"pinned_build_system": "",
+	"project": "wiring.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 217.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -164,16 +164,17 @@ figure img{
 	background: url(/public/img/uparrow1.png);
 	width: 96px;
 	height: 96px;
-	display: none;
+	display: block;
 	position: fixed;
 	bottom: 20px;
 	right: 10px;
 	opacity: 0;
-	transition: opacity 1s ease-in 0.5s;
+	transition: opacity 1s ease-in;
+	transition-duration: 1s;
 }
 
 .showarrow{
-	opacity: 0.8;
+	opacity: 0.5;
 }
 
 .arrow:hover{
@@ -212,4 +213,21 @@ figure img{
 	#text{margin-left: 5px;}
 	#head-site{text-align: center;}
 	.head-site a{font-size: 25pt;}
+
+	.arrow{
+		background: url(/public/img/uparrow2.png);
+		width: 48px;
+		height: 48px;
+		display: block;
+		position: fixed;
+		bottom: 20px;
+		right: 10px;
+		opacity: 0;
+		transition: opacity 1s ease-in;
+		transition-duration: 1s;
+	}
+
+	.showarrow{
+		opacity: 0.5;
+	}
 }
