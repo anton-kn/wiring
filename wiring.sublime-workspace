@@ -176,7 +176,7 @@
 			"file": "public/js/arrow.js",
 			"settings":
 			{
-				"buffer_size": 437,
+				"buffer_size": 369,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -185,7 +185,7 @@
 			"file": "public/css/index.css",
 			"settings":
 			{
-				"buffer_size": 3002,
+				"buffer_size": 3267,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -252,12 +252,11 @@
 	[
 		"/home/anton/programming/wiring",
 		"/home/anton/programming/wiring/public",
-		"/home/anton/programming/wiring/public/js",
-		"/home/anton/programming/wiring/public/js/List",
-		"/home/anton/programming/wiring/views"
+		"/home/anton/programming/wiring/public/img"
 	],
 	"file_history":
 	[
+		"/home/anton/programming/wiring/wiring.sublime-project",
 		"/home/anton/programming/wiring/views/content/phase.ejs",
 		"/home/anton/programming/wiring/views/phase.ejs",
 		"/home/anton/programming/wiring/server.js",
@@ -347,7 +346,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -363,8 +362,8 @@
 						"selection":
 						[
 							[
-								2042,
-								2042
+								2032,
+								2032
 							]
 						],
 						"settings":
@@ -373,10 +372,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 396.0,
+						"translation.y": 858.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -385,15 +384,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 437,
+						"buffer_size": 369,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								97,
-								97
+								127,
+								121
 							]
 						],
 						"settings":
@@ -404,7 +403,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -413,15 +412,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3002,
+						"buffer_size": 3267,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2413,
-								2413
+								3264,
+								3264
 							]
 						],
 						"settings":
@@ -430,7 +429,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2871.0,
+						"translation.y": 3829.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
