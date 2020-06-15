@@ -156,8 +156,13 @@ figure img{
 	margin-left: 210px;
 }
 
-#text p {
+#text p, #text-menu p {
 	padding-top: 10px;
+}
+
+#text-menu{
+	margin-top: 5px;
+	margin-left: 10px;
 }
 
 .arrow{
